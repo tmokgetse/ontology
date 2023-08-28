@@ -1,0 +1,1933 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/hp/ontologies/2023/6/untitled-ontology-5"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/hp/ontologies/2023/6/untitled-ontology-5">
+    <Prefix name="" IRI="http://www.semanticweb.org/hp/ontologies/2023/6/untitled-ontology-5/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Audit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BMC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cattle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Commercial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Communal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Disease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#District"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EU"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Employment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Farm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FarmEmployee"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Farmer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Feedlot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Financial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Functional"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HerdBoy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Identification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Inventory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Location"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MOA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Manager"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Market"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Matimela"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Movement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Organization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Others"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Permit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Police"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Public"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Records"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Regulations"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Status"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#System"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Traceability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tracking"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vaccination"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Zone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#brandID"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#government_ear_tags"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#personal_ear_tags"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#AppliesFor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ApprovedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#SellsTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#admistered"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#audits"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#belongsTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#boughtFrom"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#brandedTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#buys"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#checkedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#deniedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#diagnosis"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#employedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#keptBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#locateBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#locates"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#locatesThrough"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#managedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#meets"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#monitors"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#moveThrough"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#owns"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#performedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#preventedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#registeredBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#registeredTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#reportsTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#serviceFrom"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#sickOff"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#taggedTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tracks"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#treats"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#updates"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Age"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ArrivalDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#AuditDetails"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#AuditResults"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Borrower"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Bought"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#BoughtPrice"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#BrandID"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#CAge"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#CDOB"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#CID"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#CLost"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#CSex"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#CStolen"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#CalfCount"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Cattle"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#CattlePrice"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Cause"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#CauseOfDeath"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Color"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Contacts"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Contigency"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Count"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#DateBorrowed"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#DateReturn"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Dead"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#DepatureDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#DeviceID"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#DeviceName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Disease"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#District"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Dosage"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#EAge"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#EContacts"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#EDOB"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#EFirstname"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ELastname"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ENationality"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#EPhysicalAddress"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#EPostalAddress"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#EarTagColor"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#EarTagNo"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Employee"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#EmployeeID"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Expenditure"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Farm"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#FarmLocation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Farmer"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#FarmerID"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Financials"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#FirstName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#GPSLocation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Identification"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#InventIn"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#InventName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#InventOut"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#InventPrice"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Inventory"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#LastName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Loss"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Lost"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Market"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#OrgContacts"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#OrgID"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#OrgName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#OrgPostalAddress"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#OrgPysicalAddress"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Organization"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#PhysicalAddress"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#PostalAddress"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Profit"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#SaleDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#SerialNumber"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ServiceProvided"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Sold"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#SoldPrice"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Stolen"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Traceability"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Tracking"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Transfers"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Treatment"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Type"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#VacDateAdministered"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#VacDateBought"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#VacExpiryDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Vaccination"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#VaccinationBrand"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#VaccinationName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#VaccinationSerialNo"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Zone"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BMC"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#COW100"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#COW101"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#COW102"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#COW103"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Employee1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Employee2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Farm1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Farm2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Farmer1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Farmer2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Feedlot1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MOA"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tag123"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tag234"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tag345"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Vet1"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Audit"/>
+        <Class IRI="#Records"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BMC"/>
+        <Class IRI="#Organization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Commercial"/>
+        <Class IRI="#Farmer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Communal"/>
+        <Class IRI="#Farmer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Disease"/>
+        <Class IRI="#Records"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#District"/>
+        <Class IRI="#Zone"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EU"/>
+        <Class IRI="#Market"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Employment"/>
+        <Class IRI="#Records"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Feedlot"/>
+        <Class IRI="#Market"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Financial"/>
+        <Class IRI="#Records"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Functional"/>
+        <Class IRI="#System"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HerdBoy"/>
+        <Class IRI="#FarmEmployee"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Inventory"/>
+        <Class IRI="#Records"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Location"/>
+        <Class IRI="#Zone"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MOA"/>
+        <Class IRI="#Organization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Manager"/>
+        <Class IRI="#FarmEmployee"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Matimela"/>
+        <Class IRI="#Organization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Movement"/>
+        <Class IRI="#Records"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Others"/>
+        <Class IRI="#Market"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Permit"/>
+        <Class IRI="#Zone"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Police"/>
+        <Class IRI="#Organization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Public"/>
+        <Class IRI="#Market"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Regulations"/>
+        <Class IRI="#Farm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Status"/>
+        <Class IRI="#Zone"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vaccination"/>
+        <Class IRI="#Records"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vet"/>
+        <Class IRI="#Organization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#brandID"/>
+        <Class IRI="#Identification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#government_ear_tags"/>
+        <Class IRI="#Identification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#personal_ear_tags"/>
+        <Class IRI="#Identification"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Audit"/>
+        <Class IRI="#BMC"/>
+        <Class IRI="#Disease"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Audit"/>
+        <Class IRI="#Cattle"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Audit"/>
+        <Class IRI="#Commercial"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Audit"/>
+        <Class IRI="#Communal"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Audit"/>
+        <Class IRI="#Disease"/>
+        <Class IRI="#Vet"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Audit"/>
+        <Class IRI="#EU"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Audit"/>
+        <Class IRI="#Others"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Audit"/>
+        <Class IRI="#Regulations"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Audit"/>
+        <Class IRI="#Traceability"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Audit"/>
+        <Class IRI="#brandID"/>
+        <Class IRI="#government_ear_tags"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BMC"/>
+        <Class IRI="#Cattle"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BMC"/>
+        <Class IRI="#Commercial"/>
+        <Class IRI="#MOA"/>
+        <Class IRI="#Matimela"/>
+        <Class IRI="#Vet"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BMC"/>
+        <Class IRI="#Communal"/>
+        <Class IRI="#MOA"/>
+        <Class IRI="#Matimela"/>
+        <Class IRI="#Vet"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BMC"/>
+        <Class IRI="#EU"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BMC"/>
+        <Class IRI="#Identification"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BMC"/>
+        <Class IRI="#Market"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BMC"/>
+        <Class IRI="#Others"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BMC"/>
+        <Class IRI="#Regulations"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BMC"/>
+        <Class IRI="#System"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BMC"/>
+        <Class IRI="#Traceability"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Cattle"/>
+        <Class IRI="#Commercial"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Cattle"/>
+        <Class IRI="#Communal"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Cattle"/>
+        <Class IRI="#Disease"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Cattle"/>
+        <Class IRI="#EU"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Cattle"/>
+        <Class IRI="#Financial"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Cattle"/>
+        <Class IRI="#HerdBoy"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Cattle"/>
+        <Class IRI="#Identification"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Cattle"/>
+        <Class IRI="#MOA"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Cattle"/>
+        <Class IRI="#Manager"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Cattle"/>
+        <Class IRI="#Market"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Cattle"/>
+        <Class IRI="#Matimela"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Cattle"/>
+        <Class IRI="#Organization"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Cattle"/>
+        <Class IRI="#System"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Cattle"/>
+        <Class IRI="#Traceability"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Cattle"/>
+        <Class IRI="#Tracking"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Cattle"/>
+        <Class IRI="#Vaccination"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Cattle"/>
+        <Class IRI="#Vet"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Cattle"/>
+        <Class IRI="#Zone"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Cattle"/>
+        <Class IRI="#brandID"/>
+        <Class IRI="#government_ear_tags"/>
+        <Class IRI="#personal_ear_tags"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Commercial"/>
+        <Class IRI="#Disease"/>
+        <Class IRI="#Employment"/>
+        <Class IRI="#Financial"/>
+        <Class IRI="#Movement"/>
+        <Class IRI="#Vaccination"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Commercial"/>
+        <Class IRI="#District"/>
+        <Class IRI="#Location"/>
+        <Class IRI="#Permit"/>
+        <Class IRI="#Status"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Commercial"/>
+        <Class IRI="#EU"/>
+        <Class IRI="#Feedlot"/>
+        <Class IRI="#Others"/>
+        <Class IRI="#Public"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Commercial"/>
+        <Class IRI="#HerdBoy"/>
+        <Class IRI="#Manager"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Commercial"/>
+        <Class IRI="#Identification"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Commercial"/>
+        <Class IRI="#Market"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Commercial"/>
+        <Class IRI="#Matimela"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Commercial"/>
+        <Class IRI="#Organization"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Commercial"/>
+        <Class IRI="#System"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Commercial"/>
+        <Class IRI="#Traceability"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Commercial"/>
+        <Class IRI="#Tracking"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Communal"/>
+        <Class IRI="#Disease"/>
+        <Class IRI="#Employment"/>
+        <Class IRI="#Financial"/>
+        <Class IRI="#Movement"/>
+        <Class IRI="#Vaccination"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Communal"/>
+        <Class IRI="#District"/>
+        <Class IRI="#Location"/>
+        <Class IRI="#Permit"/>
+        <Class IRI="#Status"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Communal"/>
+        <Class IRI="#EU"/>
+        <Class IRI="#Feedlot"/>
+        <Class IRI="#Others"/>
+        <Class IRI="#Public"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Communal"/>
+        <Class IRI="#HerdBoy"/>
+        <Class IRI="#Manager"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Communal"/>
+        <Class IRI="#Identification"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Communal"/>
+        <Class IRI="#Market"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Communal"/>
+        <Class IRI="#Matimela"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Communal"/>
+        <Class IRI="#Organization"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Communal"/>
+        <Class IRI="#System"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Communal"/>
+        <Class IRI="#Traceability"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Communal"/>
+        <Class IRI="#Tracking"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Disease"/>
+        <Class IRI="#EU"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Disease"/>
+        <Class IRI="#Employment"/>
+        <Class IRI="#Financial"/>
+        <Class IRI="#HerdBoy"/>
+        <Class IRI="#Movement"/>
+        <Class IRI="#Vaccination"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Disease"/>
+        <Class IRI="#Employment"/>
+        <Class IRI="#Financial"/>
+        <Class IRI="#Manager"/>
+        <Class IRI="#Movement"/>
+        <Class IRI="#Vaccination"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Disease"/>
+        <Class IRI="#Status"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#District"/>
+        <Class IRI="#HerdBoy"/>
+        <Class IRI="#Location"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#District"/>
+        <Class IRI="#Location"/>
+        <Class IRI="#Manager"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#District"/>
+        <Class IRI="#Location"/>
+        <Class IRI="#Market"/>
+        <Class IRI="#Permit"/>
+        <Class IRI="#Status"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#District"/>
+        <Class IRI="#Location"/>
+        <Class IRI="#Movement"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#District"/>
+        <Class IRI="#Location"/>
+        <Class IRI="#Permit"/>
+        <Class IRI="#Status"/>
+        <Class IRI="#Vet"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#District"/>
+        <Class IRI="#Location"/>
+        <Class IRI="#Traceability"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#District"/>
+        <Class IRI="#MOA"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#District"/>
+        <Class IRI="#Matimela"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#District"/>
+        <Class IRI="#Vet"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#EU"/>
+        <Class IRI="#Feedlot"/>
+        <Class IRI="#Financial"/>
+        <Class IRI="#Others"/>
+        <Class IRI="#Public"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#EU"/>
+        <Class IRI="#Feedlot"/>
+        <Class IRI="#Others"/>
+        <Class IRI="#Public"/>
+        <Class IRI="#Vet"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#EU"/>
+        <Class IRI="#Status"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Feedlot"/>
+        <Class IRI="#Permit"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#HerdBoy"/>
+        <Class IRI="#Identification"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#HerdBoy"/>
+        <Class IRI="#Manager"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#HerdBoy"/>
+        <Class IRI="#Traceability"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#HerdBoy"/>
+        <Class IRI="#Tracking"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Identification"/>
+        <Class IRI="#MOA"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Identification"/>
+        <Class IRI="#Manager"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Identification"/>
+        <Class IRI="#Matimela"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Identification"/>
+        <Class IRI="#System"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Identification"/>
+        <Class IRI="#Traceability"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Identification"/>
+        <Class IRI="#Tracking"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Location"/>
+        <Class IRI="#Matimela"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MOA"/>
+        <Class IRI="#Market"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MOA"/>
+        <Class IRI="#Matimela"/>
+        <Class IRI="#System"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Manager"/>
+        <Class IRI="#Status"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Manager"/>
+        <Class IRI="#Traceability"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Manager"/>
+        <Class IRI="#Tracking"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Matimela"/>
+        <Class IRI="#Tracking"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Permit"/>
+        <Class IRI="#Public"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Public"/>
+        <Class IRI="#Status"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Regulations"/>
+        <Class IRI="#Vet"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#System"/>
+        <Class IRI="#Traceability"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#System"/>
+        <Class IRI="#Tracking"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#System"/>
+        <Class IRI="#Vet"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Traceability"/>
+        <Class IRI="#Vet"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Vaccination"/>
+        <Class IRI="#Vet"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Vet"/>
+        <Class IRI="#brandID"/>
+        <Class IRI="#government_ear_tags"/>
+    </DisjointClasses>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="#COW101"/>
+        <NamedIndividual IRI="#Farmer1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#taggedTo"/>
+        <NamedIndividual IRI="#COW101"/>
+        <NamedIndividual IRI="#Tag123"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#employedBy"/>
+        <NamedIndividual IRI="#Employee1"/>
+        <NamedIndividual IRI="#Farmer1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ApprovedBy"/>
+        <NamedIndividual IRI="#Farmer1"/>
+        <NamedIndividual IRI="#Vet1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#SellsTo"/>
+        <NamedIndividual IRI="#Farmer1"/>
+        <NamedIndividual IRI="#BMC"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#owns"/>
+        <NamedIndividual IRI="#Farmer1"/>
+        <NamedIndividual IRI="#COW101"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BrandID"/>
+        <NamedIndividual IRI="#COW101"/>
+        <Literal>A987654</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#CAge"/>
+        <NamedIndividual IRI="#COW101"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#CSex"/>
+        <NamedIndividual IRI="#COW101"/>
+        <Literal>Female</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#CalfCount"/>
+        <NamedIndividual IRI="#COW101"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Color"/>
+        <NamedIndividual IRI="#COW101"/>
+        <Literal>Tshweu</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#EAge"/>
+        <NamedIndividual IRI="#Employee1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">35</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#EContacts"/>
+        <NamedIndividual IRI="#Employee1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">26774591154</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#EFirstname"/>
+        <NamedIndividual IRI="#Employee1"/>
+        <Literal>Loeto</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ELastname"/>
+        <NamedIndividual IRI="#Employee1"/>
+        <Literal>Mafokong</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ENationality"/>
+        <NamedIndividual IRI="#Employee1"/>
+        <Literal>Motswana</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#EPhysicalAddress"/>
+        <NamedIndividual IRI="#Employee1"/>
+        <Literal>Plot 9512 Serowe</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#EmployeeID"/>
+        <NamedIndividual IRI="#Employee1"/>
+        <Literal>E001</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Age"/>
+        <NamedIndividual IRI="#Farmer1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">42</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Contacts"/>
+        <NamedIndividual IRI="#Farmer1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">26775549524</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FarmerID"/>
+        <NamedIndividual IRI="#Farmer1"/>
+        <Literal>F100</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FirstName"/>
+        <NamedIndividual IRI="#Farmer1"/>
+        <Literal>Anaya</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#LastName"/>
+        <NamedIndividual IRI="#Farmer1"/>
+        <Literal>Salmkhan</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#PhysicalAddress"/>
+        <NamedIndividual IRI="#Farmer1"/>
+        <Literal>Plot 452 Palapye</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#PostalAddress"/>
+        <NamedIndividual IRI="#Farmer1"/>
+        <Literal>P O Box 452 Palapye</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#EarTagColor"/>
+        <NamedIndividual IRI="#Tag123"/>
+        <Literal>Red</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#EarTagNo"/>
+        <NamedIndividual IRI="#Tag123"/>
+        <Literal>A12345</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OrgContacts"/>
+        <NamedIndividual IRI="#Vet1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2672795566</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OrgID"/>
+        <NamedIndividual IRI="#Vet1"/>
+        <Literal>V45</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OrgName"/>
+        <NamedIndividual IRI="#Vet1"/>
+        <Literal>Letlhakane Veterinary</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OrgPysicalAddress"/>
+        <NamedIndividual IRI="#Vet1"/>
+        <Literal>Letlhakane</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ServiceProvided"/>
+        <NamedIndividual IRI="#Vet1"/>
+        <Literal>Vaccinations
+Tag Sale
+Regulations
+Disease Diagnosis</Literal>
+    </DataPropertyAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#AppliesFor"/>
+        <Class IRI="#Farmer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ApprovedBy"/>
+        <Class IRI="#Permit"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#SellsTo"/>
+        <Class IRI="#Farmer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#admistered"/>
+        <Class IRI="#Cattle"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#audits"/>
+        <Class IRI="#Organization"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#belongsTo"/>
+        <Class IRI="#Farm"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#boughtFrom"/>
+        <Class IRI="#brandID"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#boughtFrom"/>
+        <Class IRI="#government_ear_tags"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#brandedTo"/>
+        <Class IRI="#brandID"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#buys"/>
+        <Class IRI="#Farmer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#checkedBy"/>
+        <Class IRI="#Regulations"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#deniedBy"/>
+        <Class IRI="#Permit"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#diagnosis"/>
+        <Class IRI="#Vet"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#employedBy"/>
+        <Class IRI="#FarmEmployee"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#keptBy"/>
+        <Class IRI="#Records"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#locateBy"/>
+        <Class IRI="#Cattle"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#locates"/>
+        <Class IRI="#Matimela"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#locatesThrough"/>
+        <Class IRI="#Farmer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#managedBy"/>
+        <Class IRI="#Farm"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#meets"/>
+        <Class IRI="#Farmer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#monitors"/>
+        <Class IRI="#FarmEmployee"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#moveThrough"/>
+        <Class IRI="#Cattle"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#owns"/>
+        <Class IRI="#Farmer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#performedBy"/>
+        <Class IRI="#Traceability"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#preventedBy"/>
+        <Class IRI="#Disease"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#registeredBy"/>
+        <Class IRI="#Cattle"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#registeredTo"/>
+        <Class IRI="#Cattle"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#registeredTo"/>
+        <Class IRI="#Farmer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#reportsTo"/>
+        <Class IRI="#FarmEmployee"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#reportsTo"/>
+        <Class IRI="#Farmer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#serviceFrom"/>
+        <Class IRI="#Farmer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#sickOff"/>
+        <Class IRI="#Cattle"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#taggedTo"/>
+        <Class IRI="#government_ear_tags"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#taggedTo"/>
+        <Class IRI="#personal_ear_tags"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tracks"/>
+        <Class IRI="#FarmEmployee"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tracks"/>
+        <Class IRI="#Matimela"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#treats"/>
+        <Class IRI="#FarmEmployee"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#treats"/>
+        <Class IRI="#Vet"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#updates"/>
+        <Class IRI="#Farmer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#AppliesFor"/>
+        <Class IRI="#Permit"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ApprovedBy"/>
+        <Class IRI="#Vet"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#SellsTo"/>
+        <Class IRI="#BMC"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#SellsTo"/>
+        <Class IRI="#Market"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#admistered"/>
+        <Class IRI="#Vaccination"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#audits"/>
+        <Class IRI="#Records"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#belongsTo"/>
+        <Class IRI="#Farmer"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#boughtFrom"/>
+        <Class IRI="#MOA"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#boughtFrom"/>
+        <Class IRI="#Vet"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#brandedTo"/>
+        <Class IRI="#Cattle"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#buys"/>
+        <Class IRI="#Cattle"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#checkedBy"/>
+        <Class IRI="#BMC"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#checkedBy"/>
+        <Class IRI="#Vet"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#deniedBy"/>
+        <Class IRI="#Vet"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#diagnosis"/>
+        <Class IRI="#Disease"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#employedBy"/>
+        <Class IRI="#Farmer"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#keptBy"/>
+        <Class IRI="#Farmer"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#locateBy"/>
+        <Class IRI="#Tracking"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#locates"/>
+        <Class IRI="#Cattle"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#locatesThrough"/>
+        <Class IRI="#Matimela"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#managedBy"/>
+        <Class IRI="#FarmEmployee"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#meets"/>
+        <Class IRI="#Regulations"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#monitors"/>
+        <Class IRI="#Movement"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#moveThrough"/>
+        <Class IRI="#Zone"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#owns"/>
+        <Class IRI="#Cattle"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#performedBy"/>
+        <Class IRI="#BMC"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#performedBy"/>
+        <Class IRI="#Farmer"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#performedBy"/>
+        <Class IRI="#MOA"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#performedBy"/>
+        <Class IRI="#Vet"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#preventedBy"/>
+        <Class IRI="#Vaccination"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#registeredBy"/>
+        <Class IRI="#Farmer"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#registeredTo"/>
+        <Class IRI="#System"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#reportsTo"/>
+        <Class IRI="#Police"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#serviceFrom"/>
+        <Class IRI="#Organization"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#sickOff"/>
+        <Class IRI="#Disease"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#taggedTo"/>
+        <Class IRI="#Cattle"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tracks"/>
+        <Class IRI="#Cattle"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#treats"/>
+        <Class IRI="#Cattle"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#treats"/>
+        <Class IRI="#Disease"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#updates"/>
+        <Class IRI="#Records"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Age"/>
+        <DataProperty IRI="#Farmer"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#ArrivalDate"/>
+        <DataProperty IRI="#Cattle"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#AuditDetails"/>
+        <DataProperty IRI="#Farm"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Borrower"/>
+        <DataProperty IRI="#Inventory"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Bought"/>
+        <DataProperty IRI="#Financials"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#BoughtPrice"/>
+        <DataProperty IRI="#Cattle"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#BrandID"/>
+        <DataProperty IRI="#Cattle"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#CAge"/>
+        <DataProperty IRI="#Cattle"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#CDOB"/>
+        <DataProperty IRI="#Cattle"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#CID"/>
+        <DataProperty IRI="#Cattle"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#CLost"/>
+        <DataProperty IRI="#Cattle"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#CSex"/>
+        <DataProperty IRI="#Cattle"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#CStolen"/>
+        <DataProperty IRI="#Cattle"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#CalfCount"/>
+        <DataProperty IRI="#Cattle"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#CattlePrice"/>
+        <DataProperty IRI="#Market"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Cause"/>
+        <DataProperty IRI="#Disease"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#CauseOfDeath"/>
+        <DataProperty IRI="#Cattle"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Color"/>
+        <DataProperty IRI="#Cattle"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Contacts"/>
+        <DataProperty IRI="#Farmer"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Contigency"/>
+        <DataProperty IRI="#Financials"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Count"/>
+        <DataProperty IRI="#Cattle"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#DateBorrowed"/>
+        <DataProperty IRI="#Inventory"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#DateReturn"/>
+        <DataProperty IRI="#Inventory"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Dead"/>
+        <DataProperty IRI="#Cattle"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#DepatureDate"/>
+        <DataProperty IRI="#Cattle"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#DeviceID"/>
+        <DataProperty IRI="#Tracking"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#DeviceName"/>
+        <DataProperty IRI="#Tracking"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#District"/>
+        <DataProperty IRI="#Zone"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Dosage"/>
+        <DataProperty IRI="#Vaccination"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#EAge"/>
+        <DataProperty IRI="#Employee"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#EContacts"/>
+        <DataProperty IRI="#Employee"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#EDOB"/>
+        <DataProperty IRI="#Employee"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#EFirstname"/>
+        <DataProperty IRI="#Employee"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#ELastname"/>
+        <DataProperty IRI="#Employee"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#ENationality"/>
+        <DataProperty IRI="#Employee"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#EPhysicalAddress"/>
+        <DataProperty IRI="#Employee"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#EPostalAddress"/>
+        <DataProperty IRI="#Employee"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#EarTagColor"/>
+        <DataProperty IRI="#Identification"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#EarTagNo"/>
+        <DataProperty IRI="#Identification"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#EmployeeID"/>
+        <DataProperty IRI="#Employee"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Expenditure"/>
+        <DataProperty IRI="#Financials"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#FarmLocation"/>
+        <DataProperty IRI="#Farm"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#FarmerID"/>
+        <DataProperty IRI="#Farmer"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#FirstName"/>
+        <DataProperty IRI="#Farmer"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#GPSLocation"/>
+        <DataProperty IRI="#Zone"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#InventIn"/>
+        <DataProperty IRI="#Inventory"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#InventName"/>
+        <DataProperty IRI="#Inventory"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#InventOut"/>
+        <DataProperty IRI="#Inventory"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#InventPrice"/>
+        <DataProperty IRI="#Inventory"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#LastName"/>
+        <DataProperty IRI="#Farmer"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Loss"/>
+        <DataProperty IRI="#Financials"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Lost"/>
+        <DataProperty IRI="#Inventory"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#OrgContacts"/>
+        <DataProperty IRI="#Organization"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#OrgID"/>
+        <DataProperty IRI="#Organization"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#OrgName"/>
+        <DataProperty IRI="#Organization"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#OrgPostalAddress"/>
+        <DataProperty IRI="#Organization"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#OrgPysicalAddress"/>
+        <DataProperty IRI="#Organization"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#PhysicalAddress"/>
+        <DataProperty IRI="#Farmer"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#PostalAddress"/>
+        <DataProperty IRI="#Farmer"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Profit"/>
+        <DataProperty IRI="#Financials"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#SaleDate"/>
+        <DataProperty IRI="#Market"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#SerialNumber"/>
+        <DataProperty IRI="#Inventory"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#ServiceProvided"/>
+        <DataProperty IRI="#Organization"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Sold"/>
+        <DataProperty IRI="#Financials"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#SoldPrice"/>
+        <DataProperty IRI="#Cattle"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Stolen"/>
+        <DataProperty IRI="#Inventory"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Transfers"/>
+        <DataProperty IRI="#Traceability"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Treatment"/>
+        <DataProperty IRI="#Disease"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Type"/>
+        <DataProperty IRI="#Disease"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#VacDateAdministered"/>
+        <DataProperty IRI="#Vaccination"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#VacDateBought"/>
+        <DataProperty IRI="#Vaccination"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#VacExpiryDate"/>
+        <DataProperty IRI="#Vaccination"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#VaccinationBrand"/> 
+        <DataProperty IRI="#Vaccination"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#VaccinationName"/>
+        <DataProperty IRI="#Vaccination"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#VaccinationSerialNo"/>
+        <DataProperty IRI="#Vaccination"/>
+    </SubDataPropertyOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+
